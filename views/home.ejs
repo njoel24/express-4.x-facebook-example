@@ -2,4 +2,14 @@
 	<p>Welcome! Please <a href="/login">log in</a>.</p>
 <% } else { %>
 	<p>Hello, <%= user.username %>. View your <a href="/profile">profile</a>.</p>
+		<p>
+		<form method="POST" action="/facebook-search">
+			<input type = "text" name="search">
+			<select name="type">
+				<option value="page" selected>Page</option>
+				<option value="user">User</option>
+			</select>
+			<input type="submit" value="submit">
+		</form>
+	</p>
 <% } %>
