@@ -22,4 +22,4 @@ $ CLIENT_ID=__FACEBOOK_CLIENT_ID__ CLIENT_SECRET=__FACEBOOK_CLIENT_SECRET__ node
 ```
 
 Open a web browser and navigate to [http://localhost:3000/](http://localhost:3000/)
-to see the example in action.
+to see the example in action!
